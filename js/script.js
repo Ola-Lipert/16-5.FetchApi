@@ -33,7 +33,6 @@ function createTweet(input) {
         document.querySelector('.author').innerText = "Author: " + quoteAuthor;
         document.querySelector('.tweet').setAttribute('href', tweet);
     }
-
 }
 //generowani cytatu i wygenerowanie po kliknięciu
 document.addEventListener('DOMContentLoaded', function() {
